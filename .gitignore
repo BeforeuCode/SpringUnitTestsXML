@@ -1,0 +1,15 @@
+Thumbs.db
+.DS_Store
+.gradle
+build
+bin
+.classpath
+.project
+.settings
+.springBeans
+exploration
+*.iml
+*.ipr
+*.iws
+C:\Users\Pawel\Desktop\lab2-projekty\stereo2\.gradle
+C:\Users\Pawel\Desktop\lab2-projekty\stereo2\.idea
