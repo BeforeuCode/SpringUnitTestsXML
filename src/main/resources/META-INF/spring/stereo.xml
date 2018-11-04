@@ -11,8 +11,7 @@
           class="soundsystem.SgtPeppers">
     </bean>
     <bean id="cdPlayer"
-          class="soundsystem.CDPlayer"
-          scope="prototype">
+          class="soundsystem.CDPlayer">
         <property name="cd" ref="sgtPeppers"/>
     </bean>
 

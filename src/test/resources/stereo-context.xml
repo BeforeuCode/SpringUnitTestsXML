@@ -8,8 +8,7 @@
     </bean>
 
     <bean id ="player"
-          class="soundsystem.CDPlayer"
-          scope="prototype">
+          class="soundsystem.CDPlayer">
     <property name="cd" ref="cd"/>
     </bean>
 
