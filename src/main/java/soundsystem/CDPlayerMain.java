@@ -9,8 +9,8 @@ public class CDPlayerMain {
 		ClassPathXmlApplicationContext context =
 				new ClassPathXmlApplicationContext("META-INF/spring/stereo.xml");
 		//retrieve bean
-			CompactDisc cd = context.getBean("sgtPeppers",CompactDisc.class);
-			MediaPlayer player = (CDPlayer)context.getBean("cdPlayer", cd);
+			/*CompactDisc cd = context.getBean("sgtPeppers",CompactDisc.class);*/
+			MediaPlayer player = context.getBean("cdPlayer", MediaPlayer.class);
 			//call methods
 		player.play();
 		//close
